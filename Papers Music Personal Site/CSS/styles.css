@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    
+}
+
+img{
+    resize: 20px;
+    max-width: 200px;
+    border-radius: 0%;
+    opacity: 0.75;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 200px;
+    font-weight: 50;
+    background-color: ();
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:200px;background-color:rgba(0, 0, 0, 0.5);color:rgba(255, 255, 255, 0.65);
+
+}
+
+footer{ 
+    bottom: 0%;
+    position: fixed;
+    text-align: center;
+    font-family: monospace;
+    font-size: 200px;
+    font-weight: 100;
+    background-color: ();
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:200px;background-color:rgba(0, 0, 0, 0.5);color:rgba(255, 255, 255, 0.65);
+
+}
+
+p{
+    bottom: 50%;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    background-color: ();
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:30px;background-color:rgba(0, 0, 0, 0.5);;color:rgba(255, 255, 255, 0.65);
+
+}
+ol{
+    font-family: monospace;
+    font-weight: 100;
+    list-style: inside;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:30px;background-color:rgba(0, 0, 0, 0.5);;color:rgba(255, 255, 255, 0.65);
+}
+
+h3 {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:30px;background-color:rgba(0, 0, 0, 0.5);;color:rgba(255, 255, 255, 0.65);
+
+}
+/* Style the video: 100% width and height to cover the entire window */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+
